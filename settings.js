@@ -6,7 +6,7 @@ function convertToBool(text, fault = 'true') {
 }
 
 module.exports = {
-    SESSION_ID: process.env.SESSION_ID || "NENO-XMD~XT4ySZxS#smA0PayYls4uJyQqhamEBT_npdKJz0AoCOnh6LaM7CY",
+    SESSION_ID: process.env.SESSION_ID || "NENO-XMD~aChh0AYb#CsGDWX6MBRnGh0PDALIIjK9FKLwbnoi23e_RQhmtvEY",
     // add your Session Id make sure it starts with NENO~
 
     PREFIX: process.env.PREFIX || ".",
@@ -106,7 +106,7 @@ module.exports = {
     ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
     // make true for always online 
 
-    PUBLIC_MODE: process.env.PUBLIC_MODE || "false",
+    PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
     // make false if want private mode
 
     AUTO_TYPING: process.env.AUTO_TYPING || "false",
@@ -115,7 +115,7 @@ module.exports = {
     READ_CMD: process.env.READ_CMD || "false",
     // true if want mark commands as read  
 
-    DEV: process.env.DEV || "263780166288",
+    DEV: process.env.DEV || "94721584279",
     // replace with your whatsapp number  
 
     ANTI_VV: process.env.ANTI_VV || "true",
